@@ -11,6 +11,6 @@
 2.	Tree = limited time & order (high-valued priorities are at the :root).
 
 **To realize this dream, I need:**
-a.	Time - 5 years to implement.
-b.	Cash - 1000 USD/month for life to start.
+a.  Time - 5 years to implement.
+b.  Cash - 1000 USD/month for life to start.
 c.	Edu - to learn HTML, CSS, JS to the point, when I can provide value for other people.
