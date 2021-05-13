@@ -1,0 +1,41 @@
+:root {
+  --decovar-font-family: "myfont";
+  --decovar-font-size: 21px;
+}
+
+body {
+  font: var(--decovar-font-size) / 121% var(--decovar-font-family), consolas;
+  margin-top: 0;
+}
+
+.main-box {
+  display: flex;
+}
+
+.dream-big {
+}
+
+.header-h1,
+.footer__copyright {
+  display: flex;
+  justify-content: center;
+}
+
+.header-h1 {
+  padding-bottom: 15px;
+  margin-bottom: 28px;
+  border-bottom: 1px dashed lightgray;
+  color: crimson;
+}
+
+.text-holy {
+  background-color: #ff0;
+  color: #000;
+}
+
+.footer__copyright {
+  padding-top: 0.21em;
+  padding-bottom: 0.21em;
+  background-color: #303846;
+  color: aliceblue;
+}
