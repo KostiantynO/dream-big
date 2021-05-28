@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="html-cv" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,68 +7,152 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
-  <body>
-    <header class="header">
-      <a class="link-index" href="./index.html" rel="noopener noreferrer">Bream Big</a>
-      <a class="link-cv" href="./cv.html" rel="noopener noreferrer">My CV</a>
-      <h1 class="h1">CV Kostiantyn Ochenash</h1>
+  <body class="body-cv">
+    <!-- HEADER -->
+    <header class="page-header">
+      <div class="header-wrapper flex baseline">
+        <nav class="header-nav">
+          <ul class="nav-menu flex">
+            <li class="nav-menu-item">
+              <a class="links link-index" href="./index.html" rel="noopener noreferrer">
+                Bream Big
+              </a>
+            </li>
+            <li class="nav-menu-item">
+              <a class="links link-cv active" href="./cv.html" rel="noopener noreferrer">My CV</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-link-wrapper flex">
+          <span class="span-insipiration">Inspired by:</span>
+          <a
+            class="links link-inspiration"
+            href="https://www.coursera.org/learn/financial-planning"
+            rel="noopener noreferrer"
+            >#ILLINOISFPYA</a
+          >
+        </div>
+      </div>
     </header>
-    <main>
-      <section>
-        <div class="container">
-          <h2 class="h2">Edu - Telecom tech:</h2>
 
-          <h3 class="h3">Fixed Networks:</h3>
-          <ul class="list">
-            <li class="list-item">POTS</li>
-            <li class="list-item">ISDN</li>
-            <li class="list-item">PDH</li>
-            <li class="list-item">SDH</li>
-            <li class="list-item">ATM</li>
-            <li class="list-item">FR</li>
-            <li class="list-item"></li>
-          </ul>
+    <!-- MAIN -->
+    <main class="page-main">
+      <section class="education sections">
+        <h1 class="h-1 flex jcenter">CV - Ochenash Kostiantyn</h1>
 
-          <h3 class="h3">Wireless Networks:</h3>
-          <ul class="list">
-            <li class="list-item">GSM</li>
-            <li class="list-item">UMTS</li>
-            <li class="list-item">WCDMA</li>
-            <li class="list-item">HSDPA</li>
-            <li class="list-item">HSUPA</li>
-            <li class="list-item">HSPA+</li>
-            <li class="list-item">LTE</li>
-            <li class="list-item">5G (Ist rev)</li>
-          </ul>
+        <div class="edu-wrapper-header flex column jcenter">
+          <p class="para-inspiration flex jcenter">
+            I making steps to acquire a Full-time position of FrontEnd Dev.
+          </p>
 
-          <h3 class="h3">Synchronization:</h3>
-          <ul class="list">
-            <li class="list-item">NTP</li>
-            <li class="list-item">SyncE</li>
-            <li class="list-item">GPS-clock</li>
-            <li class="list-item">1588</li>
-            <li class="list-item">1588v2</li>
-            <li class="list-item">ACR</li>
-          </ul>
+          <h2 class="h-2 flex jcenter">Education - Telecom tech:</h2>
+        </div>
 
-          <pre class="text-preformat">
+        <div class="container flex column jcenter">
+          <div class="edu-wrapper-big flex row">
+            <div class="edu-wrapper">
+              <h3 class="h-3">My stack:</h3>
+              <ol class="skill-set">
+                <li class="skill-set-item">HTML ★★★☆☆</li>
+                <li class="skill-set-item">CSS ★★☆☆☆</li>
+                <li class="skill-set-item">JS ★☆☆☆☆</li>
+                <li class="skill-set-item">C# ☆☆☆☆☆</li>
+                <li class="skill-set-item">C+ ★☆☆☆☆</li>
+                <li class="skill-set-item">Python ★☆☆☆☆</li>
+              </ol>
+            </div>
+            <div class="edu-wrapper">
+              <h3 class="h-3">Fixed Networks:</h3>
+              <ul class="list flex column">
+                <li class="list-item">POTS</li>
+                <li class="list-item">ISDN</li>
+                <li class="list-item">PDH</li>
+                <li class="list-item">SDH</li>
+                <li class="list-item">ATM</li>
+                <li class="list-item">FR</li>
+                <li class="list-item"></li>
+              </ul>
+            </div>
+            <div class="edu-wrapper">
+              <h3 class="h-3">Wireless Networks:</h3>
+              <ul class="list">
+                <li class="list-item">GSM</li>
+                <li class="list-item">UMTS</li>
+                <li class="list-item">WCDMA</li>
+                <li class="list-item">HSDPA</li>
+                <li class="list-item">HSUPA</li>
+                <li class="list-item">HSPA+</li>
+                <li class="list-item">LTE</li>
+                <li class="list-item">5G (Ist rev)</li>
+              </ul>
+            </div>
+            <div class="edu-wrapper">
+              <h3 class="h-3">Synchronization:</h3>
+              <ul class="list">
+                <li class="list-item">NTP</li>
+                <li class="list-item">SyncE</li>
+                <li class="list-item">GPS-clock</li>
+                <li class="list-item">1588</li>
+                <li class="list-item">1588v2</li>
+                <li class="list-item">ACR</li>
+              </ul>
+            </div>
+            <div class="edu-wrapper">
+              <h3 class="h-3">Navigation:</h3>
+              <ul class="list">
+                <li class="list-item">GPS (USA),</li>
+                <li class="list-item">GLONASS (Russia),</li>
+                <li class="list-item">GALILEO (EUROPE)</li>
+              </ul>
+            </div>
+          </div>
 
-        <h3 class="h3">Navigation:</h3>
-        <li class="list-item">GPS (USA), </li>
-        <li class="list-item">GLONASS (Russia), </li>
-        <li class="list-item">GALILEO (EUROPE)</li>
-
-        <h3 class="h3">International Space Stations:</h3>
-        <li class="list-item">USA Station,</li>
-        <li class="list-item">China Station</li>
-
-        Transmission: basics of WDM and MW.
-        IP network: basics of TCP/IP stack, Huawei routers, CX600, Juniper CXS600, Cisco L2 smart routers.
-        Access Network: ADSL2+, VDSL2, Bonding, Vectoring, SuperVector, G.fast, GPON, 10GPON, XGS PO</pre>
-          <h3 class="h3">stack: HTML ★★★☆☆ CSS ★☆☆☆☆ JS ★☆☆☆☆ C# ☆☆☆☆☆ C+ ★☆☆☆☆ Python ★☆☆☆☆</h3>
-          I want a position of Full-time FrontEnd Dev.
+          <div class="edu-wrapper-big flex row">
+            <div class="edu-wrapper">
+              <h3 class="h-3">International Space Stations:</h3>
+              <ul class="list">
+                <li class="list-item">USA Station,</li>
+                <li class="list-item">China Station</li>
+              </ul>
+            </div>
+            <div class="edu-wrapper">
+              <h3 class="h-3">Transmission:</h3>
+              <p class="para">basics of WDM and MW.</p>
+            </div>
+            <div class="edu-wrapper">
+              <h3 class="h-3">IP networks:</h3>
+              <ol class="list">
+                <li class="list-item">basics of TCP/IP stack,</li>
+                <li class="list-item">Huawei routers,</li>
+                <li class="list-item">CX600,</li>
+                <li class="list-item">Juniper CXS600,</li>
+                <li class="list-item">Cisco L2 smart routers.</li>
+              </ol>
+            </div>
+            <div class="edu-wrapper">
+              <h3 class="h-3">Access Network:</h3>
+              <ol class="list">
+                <li class="list-item">ADSL2+,</li>
+                <li class="list-item">VDSL2,</li>
+                <li class="list-item">Bonding,</li>
+                <li class="list-item">Vectoring,</li>
+                <li class="list-item">SuperVector,</li>
+                <li class="list-item">G.fast,</li>
+                <li class="list-item">GPON,</li>
+                <li class="list-item">10GPON,</li>
+                <li class="list-item">XGSPON</li>
+              </ol>
+            </div>
+          </div>
         </div>
       </section>
     </main>
+
+    <!-- FOOTER -->
+    <footer class="page-footer">
+      <div class="footer__copyright flex jcenter acenter">
+        Copyright © 2021. Created by Kostiatyn Ochenash.
+      </div>
+    </footer>
   </body>
 </html>
